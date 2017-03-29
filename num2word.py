@@ -1,4 +1,10 @@
+#Author: Kris Kamau
 
+#num2word: int -> string
+#Purpose: takes in an integer number and returns it's word format
+#Example: 22 -> twenty-two
+
+#Constraints: 0 <= number <= 1,000,000,000
 def num2word(num):
 
     values = { 1 :"one", 2 :"two", 3 :"three", 4 :"four", 5 :"five",
@@ -24,16 +30,5 @@ def num2word(num):
         return("One billion")
     else:
         return("Number too large")
-
-
-
-print(num2word(1))
-print(num2word(12))
-print(num2word(123))
-print(num2word(1234))
-print(num2word(12345))
-print(num2word(123456))
-print(num2word(1234567))
-print(num2word(12345678))
-print(num2word(123456789))
-print(num2word(1234567890))
+    
+ 
